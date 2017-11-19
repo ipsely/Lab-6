@@ -8,6 +8,6 @@ int main()
     cin >> a >> b;
     int *p;
     p = &a;
-    b = a;
+    b = *p;
     cout << "a = " << a << "\nb = " << b << "\n*p = " << *p;
 }
